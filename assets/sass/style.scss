@@ -1,0 +1,36 @@
+/*
+Theme Name: Hoodoo Child Theme
+Theme URI: http://hoodoo.build/
+Author: the PointStart team
+Author URI: http://pointstart.us/
+Description: Hoodoo is a WordPress Framework (Parent Theme) built with Bourbon, Bitters, Neat, Refill and HTML5. jQuery and custom javascript libraries we're utilized. Take it and build something beautiful.
+Version: 0.1.0
+Text Domain: hoodoo-framework
+
+This theme is mean to be child theme for use with the Hoodoo Framework which is the property of PointStart LLC. You are only allowed to utilize this
+software per the terms of service agreement.
+*/
+
+//Import Hoodoo Framework Styles
+@import "hoodoo/hoodoo";
+@import "template/template";
+
+/**
+* Select Base Font from Type System
+*
+* Uncomment one of the type-systems below!
+*/
+
+@import "type-sys/geometric";
+// @import "type-sys/rounded-sans-serif";
+// @import "type-sys/sans-serif";
+// @import "type-sys/serif";
+// @import "type-sys/slab-serif";
+// @import "type-sys/traditional";
+
+
+/**************************/
+/** Custom Theme Styles **/
+/*************************/
+
+@import "theme/theme";
