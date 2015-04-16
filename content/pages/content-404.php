@@ -10,6 +10,8 @@
  */
 ?>
 
+<?php //move to function / class ?? ?>
+
 <div class="warning">
 <h1>Uh Oh!</h1>
 <p>It seems you lost your way...please click button below to return home</p>

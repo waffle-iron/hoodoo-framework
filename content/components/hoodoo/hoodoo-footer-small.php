@@ -10,8 +10,8 @@
  */
  
  //Declare assets
- hoodoo_enqueue_style('footer-small');
- hoodoo_enqueue_script('footer-small');
+ // hoodoo_enqueue_style('footer-small');
+ // hoodoo_enqueue_script('footer-small');
 ?>
 
 

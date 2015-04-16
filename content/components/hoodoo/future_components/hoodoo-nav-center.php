@@ -10,8 +10,8 @@
  */
  
  //Declare assets
- hoodoo_enqueue_style('nav-center');
- hoodoo_enqueue_script('nav-center');
+ // hoodoo_enqueue_style('nav-center');
+ // hoodoo_enqueue_script('nav-center');
 ?>
 
 <header class="centered-navigation" role="banner">

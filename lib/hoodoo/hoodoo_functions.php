@@ -7,7 +7,8 @@ define( 'TEMPLATE_NAME', 'huna' );
 
 //constants
 define('THEME_ROOT', get_theme_root() . '/' . THEME_NAME );
-define('PAGES_ROOT', THEME_ROOT . '/content/pages'); 
+define('PAGES_ROOT', THEME_ROOT . '/content/pages');
+define('NAV_ROOT', THEME_ROOT . '/content/nav');  
 define('COMPONENTS_ROOT', THEME_ROOT . '/content/components/'); 
 define('IMAGES_ROOT', THEME_ROOT . '/assets/img/'); 
 define('JS_ROOT', THEME_ROOT . '/assets/js/'); 

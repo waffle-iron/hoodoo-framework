@@ -10,8 +10,8 @@
  */
  
  //Declare assets
- hoodoo_enqueue_style('nav-left');
- hoodoo_enqueue_script('nav-left');
+ // hoodoo_enqueue_style('nav-left');
+ // hoodoo_enqueue_script('nav-left');
 ?>
 
 <?php // add in primary navigation ?>

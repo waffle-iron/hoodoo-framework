@@ -10,8 +10,8 @@
  */
  
  //Declare assets
- hoodoo_enqueue_style('bullet-list');
- hoodoo_enqueue_script('bullet-list');
+ // hoodoo_enqueue_style('bullet-list');
+ // hoodoo_enqueue_script('bullet-list');
 ?>
 
 <ul class="bullets">

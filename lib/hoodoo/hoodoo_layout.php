@@ -3,9 +3,9 @@
 /* accepts: center (default), left, right, side-left, side-right */
 function apply_layout($bar = 'center') {
 
-	echo '<div class"content-area"><nav id="primary-nav" class="hoodoo-nav-' . $bar . '">';
+	echo '<div class"content-area"><nav id="primary-nav" class="nav-' . $bar . '">';
 
-	include(COMPONENTS_ROOT . '/hoodoo-nav-' . $bar . '.php');
+	include(NAV_ROOT . 'nav-bar-' . $bar . '.php');
 
 	echo '</nav>';
 
@@ -13,6 +13,8 @@ function apply_layout($bar = 'center') {
 
 	if ( is_page() ) {
 		
+		//Blogging? Will this work with single etc.?
+
 		$pages = get_pages(); 
 
 		foreach ( $pages as $page ) {
@@ -26,5 +28,5 @@ function apply_layout($bar = 'center') {
 
 	}
 
-	echo '</div></div>'
+	echo '</div></div>';
 }

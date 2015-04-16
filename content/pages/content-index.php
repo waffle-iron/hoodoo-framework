@@ -1,6 +1,5 @@
 <?php
 
-
 /*$components = array(
 	'title' => 'title-full',
 	'footer' => 'footer-small'

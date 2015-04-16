@@ -9,9 +9,9 @@
  * @since Hoodoo 0.1.0
  */
  
- //Declare assets
- hoodoo_enqueue_style('nav-side');
- hoodoo_enqueue_script('nav-side');
+ // Declare assets
+ // hoodoo_enqueue_style('nav-side');
+ // hoodoo_enqueue_script('nav-side');
 ?>
 
 <header class="navigation" role="banner">

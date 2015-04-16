@@ -10,8 +10,8 @@
  */
  
  //Declare assets
- hoodoo_enqueue_style('footer-big');
- hoodoo_enqueue_script('footer-big');
+ // hoodoo_enqueue_style('footer-big');
+ // hoodoo_enqueue_script('footer-big');
 ?>
 
 

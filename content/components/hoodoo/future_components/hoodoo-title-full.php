@@ -10,8 +10,8 @@
  */
  
  //Declare assets
- hoodoo_enqueue_style('title-full');
- hoodoo_enqueue_script('title-full');
+ // hoodoo_enqueue_style('title-full');
+ // hoodoo_enqueue_script('title-full');
 ?>
 
 <div class="grid-piece-12">
