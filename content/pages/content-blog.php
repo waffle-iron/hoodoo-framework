@@ -13,11 +13,8 @@
 
 <?php 
 
+$blog = new Layout();
 
-if (is_single()) {
-	include(COMPONENTS_ROOT . 'hoodoo/hoodoo-blog-single.php');
+$blog->build_page();
 
-} else {
-	include(COMPONENTS_ROOT . 'hoodoo/hoodoo-blog-home.php');
-}
 ?>

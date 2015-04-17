@@ -7,8 +7,15 @@
  * @since Hoodoo 0.1.0
  */
 
+$classes = array('layout');
 
-$library = array('api','enqueue','functions','layout','acf');
+foreach ($classes as &$class) 
+{
+	require_once( __DIR__ . '/lib/hoodoo/class_hoodoo_' . $class . '.php');
+}
+
+
+$library = array('api','enqueue','functions','acf');
 
 foreach ($library as &$lib) 
 {

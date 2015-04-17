@@ -20,6 +20,8 @@ $components = array(
 <?php 
 //move to its own lib file / class in future
 
-Layout::build_page($components);
+$index = new Layout();
+
+$index->build_page($components);
 
 ?>

@@ -23,7 +23,8 @@
 	</section>
 	<footer>
 		<?php // add in links, tags, author ?>
-		<a class="back-to-basics" href="<?php get_home_url(); ?>">Back to Blog</a>
+		<a class="back-to-basics" href="<?php bloginfo('url');?>/blog">Back to Blog</a>
+		<!-- URL will not resolve so use /blog -->
 	</footer>
 </article>
 

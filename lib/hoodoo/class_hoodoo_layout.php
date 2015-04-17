@@ -2,21 +2,33 @@
 
 class Layout {
 
-	private $_layout;
-
-	public function __construct ($layout, $post) {
-		$this->_layout = $layout;
-	}
+	/*create function to handle if blog etc.*/
 
 	public static function build_page($components) {
 		
-		foreach ($components as $component) 
-		{
+		/*Add in ability to have multiple blog templates*/
 
-			include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component . '.php');
+		if (is_single()) {
+
+			include(COMPONENTS_ROOT . 'hoodoo/hoodoo-blog-single.php');
+
+		} elseif (is_archive() || is_home()) {
+		
+			include(COMPONENTS_ROOT . 'hoodoo/hoodoo-blog-home.php');
+		
+		} else {
+
+			foreach ($components as $component) 
+			{
+
+				include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component . '.php');
+
+			}
 
 		}
+
 	}
+
 
 	/* accepts: center (default), left, right, side-left, side-right */
 	public static function apply_layout($bar = 'center') {
@@ -35,7 +47,7 @@ class Layout {
 			
 			include(PAGES_ROOT . '/content-index.php');
 
-		} elseif (is_home() || is_single()) {
+		} elseif (is_home() || is_archive() || is_single()) {
 
 			include(PAGES_ROOT . '/content-blog.php');
 
