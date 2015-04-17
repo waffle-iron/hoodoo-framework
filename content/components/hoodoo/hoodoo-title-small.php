@@ -13,3 +13,5 @@
  // hoodoo_enqueue_style('title-small');
  // hoodoo_enqueue_script('title-small');
 ?>
+
+<?php //ACF normal ?>

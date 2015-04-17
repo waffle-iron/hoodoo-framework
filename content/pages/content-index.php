@@ -19,10 +19,7 @@ $components = array(
 
 <?php 
 //move to its own lib file / class in future
-foreach ($components as $component) 
-{
 
-	include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component . '.php');
+Layout::build_page($components);
 
-}
 ?>

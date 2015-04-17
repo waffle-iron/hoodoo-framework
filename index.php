@@ -12,6 +12,6 @@
 get_header();
 	
 	/* accepts: center (default), left, right, side-left, side-right */
-	apply_layout('center');
+	Layout::apply_layout('center');
 
 get_footer();

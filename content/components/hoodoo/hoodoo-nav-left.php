@@ -14,7 +14,7 @@
  // hoodoo_enqueue_script('nav-left');
 ?>
 
-<?php // add in primary navigation ?>
+<?php // add in primary navigation + ACF Normal ?>
 
 <header class="navigation" role="banner">
   <div class="navigation-wrapper">
