@@ -1,19 +1,35 @@
 <?php
 
 /*$components = array(
-	'title' => 'title-full',
+	'title'  => 'title-full',
+	'main'   => array(
+		'main-content',
+		'bullet-list'
+	),
 	'footer' => 'footer-small'
 )*/
 
 /* example */
 
 $components = array(
-	'title-small',
-	'main-content',
-	'bullet-list',
-	'portfolio',
-	'contact',
-	'footer-small'
+	array(
+		'title-small'
+	), 
+	array(
+		'main-content'
+	),
+	array(
+		'bullet-list'
+	),
+	array(
+		'portfolio'
+	),
+	array(
+		'contact'
+	),
+	array(
+		'footer-small'
+	)
 )
 ?>
 

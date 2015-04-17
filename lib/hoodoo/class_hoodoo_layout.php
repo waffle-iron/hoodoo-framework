@@ -1,8 +1,12 @@
 <?php
 
+
+//ref global functions in class...bad practice or just php?
+
+
 class Layout {
 
-	/*create function to handle if blog etc.*/
+	/*create function to handle if blog etc. look into convention of not using include, works for now (dynamic content issues) */
 
 	public static function build_page($components) {
 		
@@ -21,7 +25,9 @@ class Layout {
 			foreach ($components as $component) 
 			{
 
-				include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component . '.php');
+				$component_accesible_variables = $component['parameters'];
+
+				include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component[0] . '.php');
 
 			}
 

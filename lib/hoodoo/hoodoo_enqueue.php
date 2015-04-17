@@ -4,6 +4,16 @@
  * Proper way to enqueue scripts and styles
  */
 
+/*
+http://requirejs.org/
+
+Use to load modular JS
+
+*/
+
+
+
+
 function hoodoo_style() {
 	wp_enqueue_style('hoodoo-style', get_stylesheet_uri());
 }
@@ -31,8 +41,9 @@ function the_slug_exists($post_name) {
 		return false;
 	}
 }
+
 // create the blog page
-if (/*isset($_GET['activated']) && */ is_admin()){
+if (is_admin()){
     $blog_page_title = 'Blog';
     $blog_page_content = 'This is blog page placeholder. Anything you enter here will not appear in the front end, except for search results pages.';
     $blog_page_check = get_page_by_title($blog_page_title);
@@ -49,7 +60,7 @@ if (/*isset($_GET['activated']) && */ is_admin()){
     }
 }
 // change the Sample page to the home page
-if (/*isset($_GET['activated']) && */ is_admin()){
+if (is_admin()){
     $home_page_title = 'Home';
     $home_page_content = '';
     $home_page_check = get_page_by_title($home_page_title);
@@ -66,7 +77,7 @@ if (/*isset($_GET['activated']) && */ is_admin()){
         $home_page_id = wp_insert_post($home_page);
     }
 }
-if (/*isset($_GET['activated']) && */is_admin()){
+if (is_admin()){
 	// Set the blog page
 	$blog = get_page_by_title( 'Blog' );
 	update_option( 'page_for_posts', $blog->ID );

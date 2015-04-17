@@ -7,7 +7,7 @@
  * @since Hoodoo 0.1.0
  */
 
-$classes = array('layout');
+$classes = array('layout'/*,'auto'*/);
 
 foreach ($classes as &$class) 
 {
