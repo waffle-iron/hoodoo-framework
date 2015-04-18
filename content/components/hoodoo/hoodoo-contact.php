@@ -1,5 +1,23 @@
-<?php //ACF form possibly??? Where to store data...? ?>
+<?php
+/**
+ * ACF Contact Form Component
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ * @todo Edit Form to Name, Email, Message & Display Contact Posts on Frontend
+ *
+ */
+?>
 
+<?php
+/*
+
+Contact form connects via the hoodoo_acf lib file, sends email to admin user details information
+
+*/
+?>
 
 <div class="contact-from">
 

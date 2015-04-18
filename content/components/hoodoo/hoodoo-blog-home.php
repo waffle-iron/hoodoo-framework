@@ -1,3 +1,19 @@
+<?php
+/**
+ * Blog Template Hierarchy Template/Component (includes: home.php, archive.php, category.php etc.)
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ *
+ * @todo Seperate Blog into seperate files or allow for override of archive.php, category.php etc.
+ *
+ *
+ */
+?>
+
+
 <div>
 <?php the_field('main_content'); ?>
 </div>

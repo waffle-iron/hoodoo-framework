@@ -1,15 +1,33 @@
 <?php
+/**
+ * 
+ * Template for Index (Front-Page)
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ */
 
-/*$components = array(
-	'title'  => 'title-full',
-	'main'   => array(
-		'main-content',
-		'bullet-list'
+/* Multidimensionsal Array with Keys example */
+
+/*
+$components = array(
+	array('title'  => 'title-full'),
+	array(
+		'main' => 'main-content',
+		'list' => 'bullet-list'
 	),
-	'footer' => 'footer-small'
-)*/
+	array('footer' => 'footer-small')
+)
+*/
 
-/* example */
+/* 
+
+Working | Change/Update at later date 
+
+Loop through components array to build page
+
+*/
 
 $components = array(
 	array(
@@ -19,17 +37,13 @@ $components = array(
 		'main-content'
 	),
 	array(
-		'contact'
-	),
-	array(
 		'footer-small'
 	)
 )
 ?>
 
-<?php 
-//move to its own lib file / class in future
 
+<?php
 $index = new Layout();
 
 $index->build_page($components);

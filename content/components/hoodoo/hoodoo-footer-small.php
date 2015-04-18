@@ -2,18 +2,11 @@
 /**
  * Small Footer Component
  *
- * Pulls in all content
- *
  * @package WordPress
  * @subpackage Hoodoo
  * @since Hoodoo 0.1.0
  */
- 
- //Declare assets
- // hoodoo_enqueue_style('footer-small');
- // hoodoo_enqueue_script('footer-small');
 ?>
-
 
 <!--<div class="wrapper-for-content-outside-of-footer">
    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer

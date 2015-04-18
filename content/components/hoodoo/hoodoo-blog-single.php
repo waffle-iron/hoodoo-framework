@@ -1,3 +1,13 @@
+<?php
+/**
+ * Blog Single Template/Component
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ */
+?>
+
 <div>
 <?php the_field('main_content'); ?>
 </div>

@@ -1,16 +1,15 @@
-<?php 
-
-/*
- * Proper way to enqueue scripts and styles
+<?php
+/**
+ * 
+ * Lib functions page for Hoodoo, enqueues, actions, hooks, filters etc.
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ * @todo Look into creating class for quickly creating ACF, Loops OR build out set of functions to resuse, Add requireJS to enqueue scripts?
+ *
  */
-
-/*
-http://requirejs.org/
-
-Use to load modular JS
-
-*/
-
 
 function hoodoo_style() {
 	wp_enqueue_style('hoodoo-style', get_stylesheet_uri());

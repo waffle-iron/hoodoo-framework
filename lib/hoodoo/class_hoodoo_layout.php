@@ -1,8 +1,15 @@
 <?php
-
-
-//ref global functions in class...bad practice or just php?
-
+/**
+ * 
+ * Class for building page layouts
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ * @todo Convert the functions below to methods, implement class scope, build out for resuse, rework methods for long term use
+ *
+ */
 
 class Layout {
 

@@ -1,9 +1,12 @@
-<?php /*
-
-
-ACF bullshit...basically how engine edits/creates/views/deletes the content, controls the theme,
-
-possibly want to seperate into new dir???
-
-
-*/
+<?php
+/**
+ * 
+ * Lib for Hoodoo API, integrating outside applications, plugins etc. MAINLY = Crossroads analytics admin panel
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ * @todo everything
+ *
+ */

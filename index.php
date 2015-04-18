@@ -3,7 +3,7 @@
  * The Index for our theme.
  *
  * Pulls in all content
- *a
+ *
  * @package WordPress
  * @subpackage Hoodoo
  * @since Hoodoo 0.1.0

@@ -21,9 +21,13 @@ Hoodoo is a WordPress Framework build for quick templating of custom themes and 
 ##Long Term Goal - WordPress as a CMS
 The long term goal for Hoodoo is to have a client ready website built very quickly, and allow the client to stay on the frontend and to leave your wonderful configs and settings alone..plus its just less confusing for non-WordPress users.
 
-## How to?
+## Todo
 
-NEED TO ADD DOCS!
+- NEED TO ADD DOCS!
+- Add Composer
+- Add Grunt or Gulp
+- Full Admin on Frontend
+- Look into Widgets for Drag & Drop
 
 Pages must be named as a slug. Change Name of Page in Menu for viewing.
 

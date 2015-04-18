@@ -1,14 +1,20 @@
 <?php
 /**
  * 
- * Template for Blog Home, Archive and all other multipost views
- *
- * Pulls in all content
+ * Page for Blog Template Hierarchy
  *
  * @package WordPress
  * @subpackage Hoodoo
  * @since Hoodoo 0.1.0
  */
+
+/* 
+
+Working | Change/Update at later date 
+
+Loop through components array to build page
+
+*/
 
 $components = array(
 	array(

@@ -1,20 +1,15 @@
 <?php
 /**
- * Bullet List Component
- *
- * Pulls in all content
+ * Bullet List Custom Loop Component
  *
  * @package WordPress
  * @subpackage Hoodoo
  * @since Hoodoo 0.1.0
+ *
+ * @todo Dynamic Content via custom post
+ *
  */
- 
- //Declare assets
- // hoodoo_enqueue_style('bullet-list');
- // hoodoo_enqueue_script('bullet-list');
 ?>
-
-<?php //Custom Post Type ?>
 
 <ul class="bullets">
   <li class="bullet three-col-bullet">

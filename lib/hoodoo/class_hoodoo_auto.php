@@ -1,13 +1,20 @@
 <?php
+/**
+ * 
+ * Class for creating pages
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ * @todo Convert the functions below to methods, implement class scope, build out for resuse
+ *
+ */
 
+class PageCreator {
 
-//Think of better name!
-
-//programmatically create pages (turn into class so can reuse to create pages)
-
-class Auto {
-
-	protected /*public?*/ function the_slug_exists($post_name) {
+	
+	function the_slug_exists($post_name) {
 		global $wpdb;
 		if($wpdb->get_row("SELECT post_name FROM wp_posts WHERE post_name = '" . $post_name . "'", 'ARRAY_A')) {
 			return true;
@@ -15,20 +22,6 @@ class Auto {
 			return false;
 		}
 	}
-
-
-	/*
-
-	args
-	page title,content,check
-
-	array = type, title, content status, author, slug
-
-
-
-
-	*/
-
 
 	// create the blog page
 	if (is_admin()){

@@ -1,4 +1,22 @@
 <?php
+/**
+ * 
+ * Lib for ACF settings and config
+ *
+ * @package WordPress
+ * @subpackage Hoodoo
+ * @since Hoodoo 0.1.0
+ *
+ * @todo Look into creating class for quickly creating ACF, Loops OR build out set of functions to resuse, add Ajax for forms
+ *
+ */
+
+/*
+
+Enabled ACF Plugin to ship with Theme
+
+*/
+
 
 // 1. customize ACF path
 add_filter('acf/settings/path', 'my_acf_settings_path');
@@ -144,16 +162,21 @@ function my_save_post( $post_id ) {
 }
 
 
-// AJAX Add in later
+/*
 
-// function add_line_ajax() {
+Ajax Loader Example for forms add in later
 
-//   	if ( isset( $_POST["post_var"] ) ) {
+function add_line_ajax() {
 
-// 		acf_form('main-content');
+  	if ( isset( $_POST["post_var"] ) ) {
 
-// 		die();
-// 	}
-// }
-// add_action('wp_ajax_add_line', 'add_line_ajax');
+		acf_form('main-content');
+
+		die();
+	}
+}
+add_action('wp_ajax_add_line', 'add_line_ajax');
+
+*/
+
 
