@@ -11,13 +11,15 @@ Hoodoo is a WordPress Framework build for quick templating of custom themes and 
 >  plural noun: hoodoos
 >  "when is this hoodoo going to end?"
 >  a person or thing that brings or causes bad luck.
+>  
 >  2. NORTH AMERICAN
 >  a column or pinnacle of weathered rock.
 >  "a towering sandstone hoodoo"
 > verb
 >  verb: hoodoo; 3rd person present: hoodoos; past tense: hoodooed; 
 >  past participle: hoodooed; gerund or present participle: hoodooing
->  1.bewitch.
+>  
+>  3. bewitch.
 >  "she's hoodooed you"
 
 
