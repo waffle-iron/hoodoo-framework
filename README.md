@@ -28,7 +28,7 @@ NEED TO ADD DOCS!
 Pages must be named as a slug. Change Name of Page in Menu for viewing.
 
 ## The Code & Collab
-As of right now this is in pre-beta and is **NOT** stable, as in meant for production. You are welcome to fork take a look add/remove etc.
+As of right now this is in pre-beta and is **NOT** stable, as in **NOT** ready for production. You are welcome to fork take a look add/remove etc.
 
 If you want to work on it please feel free to clone the directory at anytime, contact me at [zac@pointstart.us](mailto:zac@pointstart.us) to join the team!
 
