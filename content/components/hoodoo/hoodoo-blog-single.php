@@ -16,9 +16,22 @@
 	          in <?php the_category(', '); ?> 
 	    </p>
 	</header>
-	<section class="blog-excerpt">
+	<section class="blog-content">
 	
 	<?php the_content(); ?>
+
+	<?php
+	
+		acf_form(array(
+			'post_id'		=> $post_id,
+			'post_title'	=> true,
+			'post_content'	=> true,
+			'new_post'		=> array(
+				'post_status'	=> 'publish'
+			)
+		));
+		
+	?>
 	
 	</section>
 	<footer>

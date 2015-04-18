@@ -2,6 +2,23 @@
 <?php the_field('main_content'); ?>
 </div>
 
+<!-- Create new blog post -->
+
+<h1>Create new blog post</h1>
+<?php
+	
+	acf_form(array(
+		'post_id'		=> 'new_post',
+		'post_title'	=> true,
+		'post_content'	=> true,
+		'new_post'		=> array(
+			'post_status'	=> 'publish'
+		)
+	));
+	
+?>
+
+
 <?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <!-- Blog Posts -->
