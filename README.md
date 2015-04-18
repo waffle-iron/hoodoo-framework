@@ -5,21 +5,17 @@ Hoodoo is a WordPress Framework build for quick templating of custom themes and 
 
 >### hoo·doo
 > ˈho͞oˌdo͞o
+> 
 > noun
 >  1. voodoo; witchcraft.
 >  a run of bad luck associated with a person or activity.
 >  plural noun: hoodoos
 >  "when is this hoodoo going to end?"
 >  a person or thing that brings or causes bad luck.
->  
->  2. NORTH AMERICAN
->  a column or pinnacle of weathered rock.
->  "a towering sandstone hoodoo"
+>
 > verb
->  verb: hoodoo; 3rd person present: hoodoos; past tense: hoodooed; 
->  past participle: hoodooed; gerund or present participle: hoodooing
->  
->  3. bewitch.
+> 
+>  1. bewitch.
 >  "she's hoodooed you"
 
 
