@@ -13,7 +13,7 @@ software per the terms of service agreement.
 
 //Import Hoodoo Framework Styles
 @import "hoodoo/hoodoo";
-@import "template/template";
+//@import "template/template";
 
 /**
 * Select Base Font from Type System
@@ -21,7 +21,7 @@ software per the terms of service agreement.
 * Uncomment one of the type-systems below!
 */
 
-@import "type-sys/geometric";
+//@import "type-sys/geometric";
 // @import "type-sys/rounded-sans-serif";
 // @import "type-sys/sans-serif";
 // @import "type-sys/serif";
@@ -33,4 +33,4 @@ software per the terms of service agreement.
 /** Custom Theme Styles **/
 /*************************/
 
-@import "theme/theme";
+//@import "theme/theme";

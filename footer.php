@@ -8,7 +8,10 @@
  */
 ?>
 
-<?php wp_footer(); ?>
+<?php 
+acf_enqueue_uploader();
+wp_footer(); 
+?>
 
 </body>
 </html>

@@ -8,13 +8,11 @@ define( 'TEMPLATE_NAME', 'huna' );
 //constants
 define('THEME_ROOT', get_theme_root() . '/' . THEME_NAME );
 define('PAGES_ROOT', THEME_ROOT . '/content/pages');
-define('NAV_ROOT', THEME_ROOT . '/content/nav');  
+define('NAV_ROOT', THEME_ROOT . '/content/nav/');  
 define('COMPONENTS_ROOT', THEME_ROOT . '/content/components/'); 
 define('IMAGES_ROOT', THEME_ROOT . '/assets/img/'); 
 define('JS_ROOT', THEME_ROOT . '/assets/js/'); 
 define('CSS_ROOT', THEME_ROOT . '/assets/css/'); 
-
-
 
 function hoodoo_if_user_logged_in($args) 
 {
@@ -22,6 +20,35 @@ function hoodoo_if_user_logged_in($args)
 		$args;
 	}
 }
+
+
+/*
+
+create null widget pass through all code, creates drag&drop bitches, will have to edit customizer and edit from customizer, or build your own.
+
+function create_widget($name, $id, $description) {
+
+	register_sidebar(array(
+		'name' => _( $name ),
+		'id' => $id,
+		'description' => _( $description ),
+		'before_widget' => '<div class="widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
+
+	));
+
+}
+
+create_widget( 'Footer Right', 'footer-right-widget', 'Displays content on right center of footer');
+create_widget( 'Blog', 'blog', 'Displays content on right of blog');
+
+*/
+
+
+
+
 
 // function my_acf_save_post( $post_id )
 // {

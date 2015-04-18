@@ -23,11 +23,16 @@
   <div class="footer-logo">
     <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
   </div>
-    <ul>
-      <li><a href="javascript:void(0)">About</a></li>
-      <li><a href="javascript:void(0)">Contact</a></li>
-      <li><a href="javascript:void(0)">Products</a></li>
-    </ul>
+
+    <?php
+      $args = array(
+        'theme-location' => 'primary-nav',
+        'menu_class' => 'navigation-menu show',
+        'container' => 'false',
+        'items_wrap' => '<ul class="navigation-menu show">%3$s</ul>',
+      );
+      wp_nav_menu( $args );
+    ?>
 
     <div class="footer-secondary-links">
       <ul>

@@ -438,7 +438,7 @@ $success-color: #e6efc2 !default;
 /** Left Align Nav **/
 /********************/
 
-header.navigation {
+.navigation {
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
   $action-color: #477DCA !default;
@@ -508,7 +508,7 @@ header.navigation {
 
   // Nav menu
 
-  nav {
+  .primary-navigation {
     float: none;
     min-height: $navigation-height;
     z-index: 9999999;

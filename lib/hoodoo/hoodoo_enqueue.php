@@ -1,6 +1,6 @@
 <?php 
 
-/**
+/*
  * Proper way to enqueue scripts and styles
  */
 
@@ -10,8 +10,6 @@ http://requirejs.org/
 Use to load modular JS
 
 */
-
-
 
 
 function hoodoo_style() {
@@ -88,6 +86,34 @@ if (is_admin()){
 	update_option( 'page_on_front', $the_home_page->ID /* front_page */ );
 	//update_option( 'show_on_front', 'page' );
 }
+//remove sample page
+$defaultPage = get_page_by_title( 'Sample Page' );
+wp_delete_post( $defaultPage->ID );
+
+
+//register primary nav
+function register_theme_menus() {
+
+	register_nav_menus(
+		array(
+			'header-nav' =>_( 'Header Navigation'),
+			'footer-nav' =>_( 'Footer Navigation'),
+		)
+	);
+}
+add_action('init', 'register_theme_menus');
+
+
+//add class to menu item
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+     if( $item ){
+             $classes[] = 'nav-link';
+     }
+     return $classes;
+}
+
 
 
 /*

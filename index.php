@@ -10,8 +10,8 @@
  */
 
 get_header();
-	
-	/* accepts: center (default), left, right, side-left, side-right */
-	Layout::apply_layout('center');
+
+	/* accepts: center (default), left, right*/
+	Layout::apply_layout('left');
 
 get_footer();

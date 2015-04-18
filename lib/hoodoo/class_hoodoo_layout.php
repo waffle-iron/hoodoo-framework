@@ -16,9 +16,27 @@ class Layout {
 
 			include(COMPONENTS_ROOT . 'hoodoo/hoodoo-blog-single.php');
 
+			foreach ($components as $component) 
+			{
+
+				$component_accesible_variables = $component['parameters'];
+
+				include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component[0] . '.php');
+
+			}
+
 		} elseif (is_archive() || is_home()) {
 		
 			include(COMPONENTS_ROOT . 'hoodoo/hoodoo-blog-home.php');
+
+			foreach ($components as $component) 
+			{
+
+				$component_accesible_variables = $component['parameters'];
+
+				include(COMPONENTS_ROOT . 'hoodoo/hoodoo-' . $component[0] . '.php');
+
+			}
 		
 		} else {
 
@@ -43,7 +61,7 @@ class Layout {
 
 		echo '<div class"content-area"><nav id="primary-nav" class="nav-' . $bar . '">';
 
-		include(NAV_ROOT . 'nav-bar-' . $bar . '.php');
+		include(NAV_ROOT . 'nav-' . $bar . '.php');
 
 		echo '</nav>';
 
