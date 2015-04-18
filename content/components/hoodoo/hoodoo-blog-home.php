@@ -4,17 +4,18 @@
 
 <!-- Create new blog post -->
 
+<?php if ( is_user_logged_in() ) { ?>
 <h1>Create new blog post</h1>
 <?php
-	
-	acf_form(array(
-		'post_id'		=> 'new_post',
-		'post_title'	=> true,
-		'post_content'	=> true,
-		'new_post'		=> array(
-			'post_status'	=> 'publish'
-		)
-	));
+		acf_form(array(
+			'post_id'		=> 'new_post',
+			'post_title'	=> true,
+			'post_content'	=> true,
+			'new_post'		=> array(
+				'post_status'	=> 'publish'
+			)
+		));
+	}
 	
 ?>
 

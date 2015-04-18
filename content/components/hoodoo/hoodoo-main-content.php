@@ -2,7 +2,15 @@
 
 <?php the_field('main_content'); ?>
 
-<?php acf_form( 'main_content' ); ?>
+<?php 
+
+if ( is_user_logged_in() ) { 
+
+	acf_form( 'main_content' );
+
+}
+ 
+?>
 
 </div>
 

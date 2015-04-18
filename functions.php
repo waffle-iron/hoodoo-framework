@@ -15,7 +15,7 @@ foreach ($classes as &$class)
 }
 
 
-$library = array('api','enqueue','functions','acf');
+$library = array('api','enqueue','functions','acf','admin');
 
 foreach ($library as &$lib) 
 {

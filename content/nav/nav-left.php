@@ -87,7 +87,10 @@
 ?>
 
     </div>
+    
     <div class="navigation-tools">
+    <?php
+  /*
       <div class="search-bar">
         <form role="search">
           <input type="search" placeholder="Enter Search" />
@@ -96,7 +99,21 @@
           </button>
         </form>
       </div>
-      <a href="javascript:void(0)" class="sign-up">Sign Up</a>
+          */
+?>
+  
+  <?php
+    if ( is_user_logged_in() ) {
+        
+        echo '<a href="'.wp_logout_url( get_permalink() ).'" title="Logout" class="sign-up">Logout</a>';
+    
+    } else {
+    
+        echo '<a href="'.wp_login_url( get_permalink() ).'" title="Login" class="sign-up">Login</a>';
+    
+    }
+  ?>
     </div>
+
   </div>
 </header>

@@ -19,12 +19,6 @@ $components = array(
 		'main-content'
 	),
 	array(
-		'bullet-list'
-	),
-	array(
-		'portfolio'
-	),
-	array(
 		'contact'
 	),
 	array(
