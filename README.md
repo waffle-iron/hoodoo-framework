@@ -23,10 +23,8 @@ The long term goal for Hoodoo is to have a client ready website built very quick
 
 ## Todo
 
-- NEED TO ADD DOCS!
-- Add Composer
-- Add Grunt or Gulp
-- Full Admin on Frontend
+- NEED TO ADD DOCS! - In Progress
+- Full Admin on Frontend - In Progress
 - Look into Widgets for Drag & Drop
 
 Pages must be named as a slug. Change Name of Page in Menu for viewing.
