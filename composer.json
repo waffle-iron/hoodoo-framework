@@ -1,0 +1,17 @@
+{
+	"name": "hoodoo-framework",
+	"description": "Hoodoo Framework - WordPress as CMS",
+	"keywords": ["framework", "hoodoo"],
+	"license": "GPL",
+	"type": "project",
+	"require": {
+		"monolog/monolog": "1.2.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0",
+		"phpspec/phpspec": "~2.1"
+	},
+	"config": {
+		"preferred-install": "dist"
+	}
+}

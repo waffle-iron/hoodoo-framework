@@ -41,3 +41,12 @@ If you want to work on it please feel free to clone the directory at anytime, co
   Hoodoo is released under the GPL
 
   Hoodoo Pro Templates & Extensions are the property of PointStart LLC and are not to be redistributed without prior permission of PointStart LLC.
+
+### Phoenix - Bourbon Microframework
+Phoenix is a Bourbon based Microframework used for quick templating of projects. Hoodoo is being developed alongside of Phoenix so they will work well together but Phoenix is slowly becoming a standalone project.
+
+You can visit the [Phoenix Repo](https://github.com/PointStart/phoenix-sass) (it is currently empty...but coming soon!)
+
+
+
+

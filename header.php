@@ -34,7 +34,7 @@
 <?php wp_head();
 
 /* adds header content for ACF */
-hoodoo_if_user_logged_in( acf_form_head() );
+acf_form_head();
 
 ?>
 
