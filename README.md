@@ -1,3 +1,6 @@
+# DEPRECATED - this framework is unfinished and will not be worked on moving forward
+...sometimes I just like to look back at old code :)
+
 # Hoodoo WordPress Framework 0.1.0
 
 Hoodoo is a WordPress Framework build for quick templating of custom themes and also a built in Front-end editing system utilizing ACF Plugin (acf_form function).
