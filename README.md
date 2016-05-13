@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/zrosenbauer/hoodoo-framework.png?label=ready&title=Ready)](https://waffle.io/zrosenbauer/hoodoo-framework)
 # DEPRECATED - this framework is unfinished and will not be worked on moving forward
 ...sometimes I just like to look back at old code :)
 
